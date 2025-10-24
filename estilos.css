@@ -1,0 +1,48 @@
+@font-face { font-family: minecraft; src: url('./fons/minecraft_font.ttf'); }
+
+title{
+    font-family: minecraft, serif;
+}
+
+h1 {
+    color: #16db65;
+    background-color: #001a23;
+    font-size: 40px;
+    font-family: minecraft, serif;
+    margin-top: 0;
+    padding-bottom: 80px ;
+    text-align: center;
+
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+.item{
+    background-color: #001a23;
+    color: rgba(255, 255, 255, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.destacat{
+    grid-column: span 2;
+
+}
+
+.destacado:hover{
+    /*transform: translateY(-5px) scale(1.03);*/
+    background-color: #29593a;
+    color: white;
+}
+
+a {
+    color: #16db65;
+}
